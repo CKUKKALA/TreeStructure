@@ -1,4 +1,4 @@
-import mapsImg from "@/images/maps.jpg";
+import mapsImg from "../../../images/maps.jpg";
 import Image from "next/image";
 const url = "https://www.course-api.com/images/tours/tour-1.jpeg";
 
