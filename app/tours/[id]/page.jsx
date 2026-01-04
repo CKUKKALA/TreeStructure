@@ -3,6 +3,7 @@ import Image from "next/image";
 const url = "https://www.course-api.com/images/tours/tour-1.jpeg";
 
 function page({ params }) {
+    console.log(params)
   return (
     <div>
       <h1 className="text-4xl">ID : {params.id}</h1>
